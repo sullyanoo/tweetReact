@@ -10,7 +10,6 @@ export default function Tweet(props) {
             <div className={styles.user}>
                 <span className={styles.userName}>Luciano Olegario</span>
                 <span>@guii_olegario</span>
-                <span>Há 12 horas</span>
             </div>
             <div className={styles.tweet}>
                 {props.children}

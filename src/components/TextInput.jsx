@@ -12,14 +12,14 @@ export default function TextInput() {
     const limiteContador = 125;
     const [tweetList, setTweetList] = useState([])
     
-    const tweet = {
+   /* const tweet = {
         date: new Date().toDateString(),
         text: text,
         user: {
             name: 'Luciano Olegario',
             username: '@guii_olegario'
         }
-    }
+    } */
 
     function onTextChange(event) {
         const text = event.target.value;
