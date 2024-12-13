@@ -1,0 +1,53 @@
+.input{
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível */
+    height: 150px; /* Aumenta a altura do textarea */
+    padding: 10px; /* Espaçamento interno para melhor legibilidade */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Define uma borda suave */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+    margin-top: 90px; /* Adiciona espaço de 20px do topo */
+}
+
+.input:focus{
+    outline: none;
+}
+
+.button {
+    background-color: #1da1f2; /* Cor inicial (azul do Twitter) */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Mostra o cursor "pointer" ao passar o mouse */
+    transition: background-color 0.3s ease; /* Animação suave para a mudança de cor */
+}
+
+.button:hover {
+    background-color: #0d8bec; /* Cor ao passar o mouse */
+}
+
+.button:active {
+    background-color: #0a6db8; /* Cor ao clicar */
+}
+
+.tweet {
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 2px solid #1da1f2; /* Contorno azul com espessura de 2px */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento entre tweets */
+    color: #000; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
+    width: 90%; /* Ajusta para ocupar toda a largura do contêiner */
+}
+
+.tweet:hover {
+    border-color: #0d8bec; /* Muda para um tom mais escuro de azul */
+    background-color: #f0f8ff; /* Fundo levemente azul */
+}
+
+.tweetListItem{
+    padding: 16px 0px;
+}

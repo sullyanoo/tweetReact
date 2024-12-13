@@ -1,0 +1,36 @@
+.tweetContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    'avatar user'
+    'avatar text';
+    gap: 2px;
+    margin-top: 20px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 2px solid #1da1f2; /* Contorno azul com espessura de 2px */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento entre tweets */
+    color: #000; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave (opcional) */
+    width: 90%; /* Ajusta para ocupar toda a largura do contêiner */
+}
+
+.avatar{
+    grid-area: avatar;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
+
+.user{
+    grid-area: user;
+    gap: 2px;
+}
+
+.userName{
+    font-weight: bold;
+    
+    color: var(--primary-text);
+}

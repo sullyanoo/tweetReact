@@ -1,0 +1,38 @@
+.header {
+   
+    color: #1da1f2; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Alinhamento flexível */
+    justify-content: space-between; /* Espaço entre título e menu */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.header-title {
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold;
+}
+
+.header-nav .header-menu {
+    list-style: none; /* Remove marcadores das listas */
+    display: flex; /* Deixa os itens lado a lado */
+    gap: 15px; /* Espaçamento entre os itens */
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav .header-menu a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: white; /* Cor dos links */
+    font-size: 16px;
+}
+
+.header-nav .header-menu a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .header-nav .header-menu {
+        flex-direction: column; /* Muda os itens para uma coluna */
+        gap: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    min-width: 320px;
+
+}
+
+* {
+    box-sizing: border-box;   
+}
+
+:root{
+    --primary: #1d9bf0;
+    --primary-light: #8ecdf7;
+    --primary-text: #0f1419;
+    --second-text: #536471;
+    --border:var(--second-text);
+
+}
